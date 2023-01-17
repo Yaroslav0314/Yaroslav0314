@@ -1,0 +1,51 @@
+use hogward;
+select * from characters;
+select fname, lname, patronus from characters where not patronus = "unknown" and patronus is not null;
+select lname from characters where lname like "%e";
+select sum(age) from characters; 
+select fname, lname, age from characters order by age desc;
+select fname, age from characters where age between 50 and 100;
+select distinct age from characters;
+select * from characters where faculty="Gryffindor" and age>30;
+select distinct faculty from characters limit 3;
+select fname from characters where fname like "h____" or fname like "l%";
+select avg(age) from characters;
+delete from characters where char_id=11;
+select lname from characters where lname like "%a%";
+select fname as "Half-Blood Prince" from characters where fname="Severus";
+select char_id, patronus from characters where not patronus = "unknown" and patronus is not null order by patronus;
+select min(age) from characters; 
+select fname from characters union select book_name from library;
+select fname, lname from characters where lname in ("Crabbe", "Granger", "Diggory");
+select count(fname), faculty from characters group by faculty having count(fname) > 1;
+select fname, lname, 
+case
+	when faculty="Gryffindor" then "Godric"
+    when faculty="Slytherin" then "Salazar"
+    when faculty="Ravenclaw" then "Rowena"
+    when faculty="Hufflepuff" then "Helga"
+    else "Muggle"
+end as Founders 
+from characters;
+select fname from characters  where fname not regexp "^[hls]";
+select characters.fname, characters.lname, library.book_name from characters left join library on characters.char_id=library.char_id;
+select characters.fname, characters.lname, library.book_name from characters right join library on characters.char_id=library.char_id;
+select characters.patronus, library.book_name from characters right join library on characters.char_id=library.char_id;
+select characters.fname, characters.lname,characters.age, library.book_name from characters left join library on characters.char_id=library.char_id where age>15;
+select characters.fname, library.book_name, library.start_date, library.end_date from characters left join library on characters.char_id=library.char_id where age<15 and patronus="Unknown";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
