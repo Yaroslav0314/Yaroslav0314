@@ -16,13 +16,12 @@
 
 ### Testing Documentation
 
-- [Checklists](https://github.com/Yaroslav0314/Yaroslav0314/tree/master/assets/check%20list)
-- [Test-Suites and Test-Cases](https://github.com/Yaroslav0314/Yaroslav0314/tree/master/assets/test%20qases)
-- [Bug-Reports](https://github.com/Yaroslav0314/Yaroslav0314/tree/master/assets/bag%20report)
-- [SQL Queries](https://github.com/Yaroslav0314/Yaroslav0314/tree/master/assets/sql)
-- [Postman Collections](https://github.com/Yaroslav0314/Yaroslav0314/tree/master/assets/postman)
+- [Checklists](https://github.com/Yaroslav0314/Checklists)
+- [Test-Suites and Test-Cases](https://github.com/Yaroslav0314/Test-Suites-and-Test-Cases)
+- [Bug-Reports](https://github.com/Yaroslav0314/Bug-Reports)
+- [SQL Queries](https://github.com/Yaroslav0314/SQL-Queries)
+- [Postman Collections](https://github.com/Yaroslav0314/Postman-Collections.git)
 
 ### Follow Me
 [![Header](https://img.shields.io/badge/Telegram-090909?style=for-the-badge&logo=telegram&logoColor=31a5db)](https://t.me/yaroslav0314)
 [![Header](https://img.shields.io/badge/Linkedin-090909?style=for-the-badge&logo=linkedin&logoColor=0073b1)](https://www.linkedin.com/in/yaroslav-maryankov-28209b215/)
-
