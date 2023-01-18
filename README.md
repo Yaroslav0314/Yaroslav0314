@@ -1,7 +1,7 @@
 # Yaroslav Maryankov
 ## I'm a junior QA Engineer. 
+I have a high working capacity, I am able to work in multitasking mode and in a team, I have developed organizational and managerial skills.
 ## My CV
-[Link to my CV]()
 
 ### Language and Tools
 ![Header](https://img.shields.io/badge/Jira-090909?style=for-the-badge&logo=jira&logoColor=136be1)
