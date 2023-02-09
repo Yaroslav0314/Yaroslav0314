@@ -1,6 +1,6 @@
 # Yaroslav Maryankov
 ## I'm a junior QA Engineer. 
-## My CV
+[## My CV](https://github.com/Yaroslav0314/my-cv)
 
 ### Language and Tools
 ![Header](https://img.shields.io/badge/Jira-090909?style=for-the-badge&logo=jira&logoColor=136be1)
