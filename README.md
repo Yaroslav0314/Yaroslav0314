@@ -1,5 +1,5 @@
 # Yaroslav Maryankov
-## I'm a junior QA Engineer. 
+## I'm a QA Engineer. 
 ## [My CV](https://github.com/Yaroslav0314/my-cv)
 
 ### Language and Tools
